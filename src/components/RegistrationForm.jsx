@@ -136,7 +136,7 @@ export default function RegistrationForm() {
           </Form.Control.Feedback> 
         </Form.Group>
         <div className='text-content text-danger'>
-
+          {error && <p>{error}</p>}
         </div>
         <Button variant='primary' type='submit'>
           Valider
